@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Projet final</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="container mt-5 mb-5">
+			<h1 class="text-center">Projet final</h1>
+			<div class="row justify-content-center mt-4">
+				<div class="col-md-6">
+					<div class="input-group mb-3">
+						<input
+							type="text"
+							id="searchInput"
+							class="form-control"
+							placeholder="Entrez un mot en anglais pour en avoir la définition."
+						/>
+						<button id="searchButton" class="btn btn-primary" >
+							Rechercher
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-6">
+					<div id="definition" class="mt-4"></div>
+					<div class="text-center">
+						<button id="clearButton" class="btn btn-danger mt-3">
+							Effacer
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="scripts/script.js"></script>
+	</body>
+</html>
